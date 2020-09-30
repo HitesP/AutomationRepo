@@ -1,0 +1,14 @@
+You can add Undo/Redo button to your JMeter.
+
+You just need to go to jmeter.properties file(located in bin folder)
+then search for undo.history.size.
+
+Remove comment and make value like below:
+
+undo.history.size=3
+
+Here 3 is number of steps you can Undo/Redo your steps.
+
+Do not exceed it to 5, your JMeter will get slow like anything.
+
+Thank You!
